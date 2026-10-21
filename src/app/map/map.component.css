@@ -1,0 +1,17 @@
+svg {
+    background-color: #7fcdff;
+    padding: 25px;
+    
+}
+
+svg path {
+    fill: rgb(150, 150, 153);
+    stroke: rgb(117, 7, 7);
+    stroke-width: 0.2px;
+}
+
+svg path:hover {
+    fill: rgb(236, 4, 4);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}

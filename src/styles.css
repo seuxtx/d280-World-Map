@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: TF2Professor;
+  src: url('assets/fonts/tf2professor.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.TF2Professor{
+    font-family: 'TF2Proessor';
+}
+
+h1 {
+  font-family: 'TF2Professor', Verdana, sans-serif;
+  font-size: 6rem;
+  margin: 0;
+  position: absolute;
+  left: 24vw;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 32, 25);
+  box-shadow: 10px 10px 5px rgb(153, 155, 156);
+}
+
+h2 {
+  font-family: 'TF2Professor',Tahoma, sans-serif;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 32, 25);
+  box-shadow: 10px 10px 5px rgb(153, 155, 156);
+}
+
+#map {
+  background-color: #7fcdff;
+  padding: 75px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-left: 0;
+}
+
+td ol {
+  list-style: none;
+  margin-top: 15px;
+  font-family: 'TF2Professor', 'Knewave', cursive;
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(36, 32, 25);
+  box-shadow: 10px 10px 5px rgb(153, 155, 156);
+}
+
+td ol li span {
+  color: rgb(207, 179, 18);
+}
+
+html {
+  background-color:#7fcdff;
+  margin-left: 10vw;
+
+}
